@@ -5,4 +5,3 @@ WORKDIR /app
 COPY fibo.ps1 .
 
 ENTRYPOINT ["pwsh", "-File", "fibo.ps1"]
-CMD []
